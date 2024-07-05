@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    
+
+
+    <div id="container">
+    <div id="loginContainer">
+           <h1 style="color: greenyellow"> Login </h1>
+
+           <input type="text" id="username" placeholder="username">
+           <input type="password" id="password" placeholder="password">
+
+           <button id="btn_login">Login</button>
+           <button id="btn_register">Sign In</button>
+    </div>
+
+
+    <div id="container_main">
+        <div id="header">
+        <span type="text"  id="post_text" placeholder="inserisci post" contenteditable></span>
+        <button id="btnPost"> <strong>POST </strong> </button>
+        <br>
+        <button id="btnHome"> HOME </button>
+        <button id="btnMyPost"> MY  POST </button>
+        <input type="text" placeholder="username" id="search_txt"><button id="btnSearch"> cerca </button>
+         <button id="btnLogout"> logout</button>
+        </div>
+
+
+        <div id="container_posts">
+        </div>
+
+
+
+    </div>
+
+</div>
+<script src="/socket.io/socket.io.js"></script>
+    <script src="./assets/main.js"></script>
+</body>
+</html>

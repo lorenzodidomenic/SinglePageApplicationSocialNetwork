@@ -1,0 +1,164 @@
+#container{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+#loginContainer{
+    /*position:relative;*/
+    width: 300px;
+    height: 300px;
+    background-color: rgb(155, 108, 198);
+    border: greenyellow;
+    /*top: 100px;*/
+    text-align: center;
+    overflow-x: hidden;
+    border-radius: 20px;
+    border: 1px solid greenyellow;
+}
+
+
+#username{
+    display: block;
+    width: 300px;
+    background-color: rgb(155, 108, 198);
+    border: none;
+    color: white;
+    margin-top: 20px;;
+}
+
+#password{
+    display: block;
+    background-color: rgb(155, 108, 198);
+    border: none;
+    width: 300px;
+    color: white;
+    margin-top: 20px;
+}
+
+::placeholder{
+    color: greenyellow;
+}
+
+#btn_login, #btn_register{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+}
+
+
+#container_main{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: black;
+    display: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 30px;;
+}
+
+#post_text{
+    display: inline-block;
+    width: 97%;
+    height: 120px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;;
+    background-color:aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(20, 13, 13);
+    overflow-y: scroll;
+}
+
+#btnPost{
+     width: 60px;
+     height: 60px;
+     background-color: rgb(136, 90, 178);
+     color: yellowgreen;
+     margin-top: 30px;;
+     border: 1px solid greenyellow;
+     border-radius: 50%;
+     margin-bottom: 10px;;
+
+}
+
+#container_posts{
+    width: 100%;
+    background-color: black;
+    overflow-y: scroll;
+    text-align: start;
+}
+
+
+
+.header_profile{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    color: purple;
+    font-weight: bold;
+}
+
+ #new_post > #username{
+    display: block;
+    width: 100%;
+    text-align: start;
+    color: black;
+}
+
+ #new_post > #post_content {
+    padding: 10px;;
+    color: black;
+    width: 100%
+}
+
+
+#btnHome{
+    text-align: center;
+    width: 60px;
+    height: 24px;;
+    border-radius: 4px;
+    background-color: beige;
+    color: blueviolet;
+    /*background: url("./img/home.png") center;
+    background-size: cover;*/
+}
+
+#btnMyPost{
+    text-align: center;
+    width: 80px;
+    height: 24px;;
+    border-radius: 4px;
+    background-color: beige;
+    color: blueviolet;
+}
+
+#btnSearch{
+    text-align: center;
+    width: 80px;
+    height: 24px;;
+    border-radius: 4px;
+    background-color: beige;
+    color: blueviolet;
+}
+
+#btnLogout{
+    text-align: center;
+    width: 80px;
+    height: 24px;;
+    border-radius: 4px;
+    background-color: beige;
+    color: blueviolet;
+}
+::placeholder{
+    color: blueviolet;
+}
